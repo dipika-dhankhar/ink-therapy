@@ -1,4 +1,4 @@
-import ArrowRight from './ArrowRight.jsx';
+import ArrowRight from "./Arrowright.jsx";
 
 export default function MethodSteps({ steps }) {
   return (
