@@ -5,7 +5,7 @@ import CallButton from "../components/CallButton.jsx";
 import CtaSection from "../components/CtaSection.jsx";
 import MethodSteps from "./Methodsetps.jsx";
 import Offer from "../components/Offer.jsx";
-import Testimonials from "../components/Testimonials.jsx";
+import Testimonials from "../components/Testimonals.jsx";
 import usePageMeta from "../hooks/usePageMeta.js";
 import { IMAGES, METHOD_SHORT } from "../data/site.js";
 import { PARTICIPANT_TESTIMONIALS } from "../data/testimonials.js";
