@@ -26,8 +26,9 @@ export default function Footer() {
               </Link>
             ))}
           </nav>
-          <p>By Aananddika Sood</p>
-        </div>
+          <p>
+            <span className="footer__name"> By Aananddika Sood</span>
+          </p>        </div>
       </div>
     </footer>
   );

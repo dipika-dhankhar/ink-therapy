@@ -37,8 +37,8 @@ export default function About() {
     <>
       <section className="hero hero--about">
         <div className="container">
-          <p className="eyebrow">About / Aananddika Sood</p>
-          <h1 className="display display--xl">
+<p className="eyebrow eyebrow--large">About / Aananddika Sood</p>  
+      <h1 className="display display--xl">
             A career in words. <em>A practice in thinking.</em>
           </h1>
 

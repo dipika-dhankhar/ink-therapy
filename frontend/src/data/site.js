@@ -1,7 +1,7 @@
 export const CALL_URL =
   'https://wa.me/918961764887?text=Hi%20Aananddika%2C%20I%27d%20like%20to%20book%20a%20free%2030-minute%20call';
 
-export const EMAIL = 'hello@inktherapy.com';
+export const EMAIL = 'theinktherapystudio@gmail.com';
 
 export const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
