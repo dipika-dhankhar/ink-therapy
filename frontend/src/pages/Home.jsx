@@ -5,20 +5,15 @@ import CallButton from "../components/CallButton.jsx";
 import CtaSection from "../components/CtaSection.jsx";
 import MethodSteps from "./Methodsetps.jsx";
 import Offer from "../components/Offer.jsx";
+import Testimonials from "../components/Testimonials.jsx";
 import usePageMeta from "../hooks/usePageMeta.js";
 import { IMAGES, METHOD_SHORT } from "../data/site.js";
+import { PARTICIPANT_TESTIMONIALS } from "../data/testimonials.js";
 
 const JOURNEY = [
   { label: "Where it began", title: "LinkedIn writing" },
   { label: "What it opened up", title: "Clarity + conversations" },
   { label: "Where it led", title: "Two books" },
-];
-
-const READERS = [
-  "Dr. Bhavana Gautam",
-  "Vidwata S. Mohta",
-  "Deepa Soman",
-  "Hira Jethanandani",
 ];
 
 const COMPARISON = [
@@ -254,18 +249,11 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="readers">
-            <p className="eyebrow">Reader &amp; client perspectives</p>
-            <ul>
-              {READERS.map((name) => (
-                <li key={name}>{name}</li>
-              ))}
-            </ul>
-            <p className="readers__note">
-              Testimonial excerpts will be published once the original quotes
-              are supplied and approved.
-            </p>
-          </div>
+          <Testimonials
+            eyebrow="Reader &amp; client perspectives"
+            heading="What participants say"
+            items={PARTICIPANT_TESTIMONIALS}
+          />
         </div>
       </section>
 

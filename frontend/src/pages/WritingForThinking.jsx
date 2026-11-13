@@ -6,13 +6,6 @@ import { getEssays } from '../api.js';
 
 const ALL = 'All essays';
 
-const READERS = [
-  "Dr. Bhavana Gautam",
-  "Vidwata S. Mohta",
-  "Deepa Soman",
-  "Hira Jethanandani",
-];
-
 export default function WritingForThinking() {
   const [theme, setTheme] = useState(ALL);
   const [themes, setThemes] = useState([]);
@@ -99,19 +92,6 @@ export default function WritingForThinking() {
             <p>
               This library explores the work behind the words: making a decision, finding a point of view, preparing
               for a conversation, and recognising what you actually think.
-            </p>
-          </div>
-
-          <div className="readers">
-            <p className="eyebrow">Reader &amp; client perspectives</p>
-            <ul>
-              {READERS.map((name) => (
-                <li key={name}>{name}</li>
-              ))}
-            </ul>
-            <p className="readers__note">
-              Testimonial excerpts will be published once the original quotes
-              are supplied and approved.
             </p>
           </div>
         </div>
